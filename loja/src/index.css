@@ -7,8 +7,36 @@
     --contrast: #fe8629;
     --text-base: #333;
     --cta: #c5006c;
-    --backgrong: #1a1a1a;
+    --background: #1a1a1a;
     --text-color: #ffffff;
     --gradient1: linear-gradient(135deg, #e6007e, #6a1b9a);
-    --gradient2: linear-gradient(135deg, #e6007e, #6a1b9a);  
+    --gradient2: linear-gradient(135deg, #ff3399, #4a148c);
+    --font-base: "Roboto", sans-serif;
+    --font-title: "Playfair Display", serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base);
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: var(--font-title);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
