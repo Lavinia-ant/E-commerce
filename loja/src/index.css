@@ -2,12 +2,12 @@
 
 :root {
     --primary-color: #fe0084;
-    --secondary-color: #f5deb3;
+    --secondary-color: #FFEBC6;
     --title: #fff9e6;
     --contrast: #fe8629;
     --text-base: #333;
     --cta: #c5006c;
-    --background: #1a1a1a;
+    --background: #6E5248;
     --text-color: #ffffff;
     --gradient1: linear-gradient(135deg, #e6007e, #6a1b9a);
     --gradient2: linear-gradient(135deg, #ff3399, #4a148c);
@@ -109,4 +109,51 @@ img {
 .topo nav {
     display: flex;
     gap: 20px;
+}
+
+.topo nav a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--text-base);
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.topo nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.topo nav a:hover::after {
+    width: 100%;
+}
+
+.topo nav a:hover {
+    color: var(--primary-color);
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+    .topo {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .topo picture {
+        max-width: 30px;
+    }
+
+    .topo nav a {
+        font-size: 12px;
+    }
 }
