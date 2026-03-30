@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: #fe0084;
-    --secondary-color: #FFEBC6;
-    --title: #fff9e6;
-    --contrast: #fe8629;
-    --text-base: #333;
-    --cta: #c5006c;
+    --primary-color: #DB6680;
+    --secondary-color: #FF9DA3;;
+    --title: #FFF5E6;
+    --contrast: #B2BD8B;
+    --text-base: #4A3328;
+    --cta: #B2464F;
     --background: #6E5248;
     --text-color: #ffffff;
-    --gradient1: linear-gradient(135deg, #e6007e, #6a1b9a);
-    --gradient2: linear-gradient(135deg, #ff3399, #4a148c);
+    --gradient1: linear-gradient(135deg, #DB6680, #6E5248);
+    --gradient2: linear-gradient(135deg, #FF9DA3, #DB6680);
     --font-base: "Roboto", sans-serif;
     --font-title: "Playfair Display", serif; 
 }
